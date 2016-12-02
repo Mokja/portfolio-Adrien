@@ -1,0 +1,137 @@
+body
+{
+	background-image: url('../images/arriere-plan.png');
+}
+#bloc_contenu{
+	width: 100%;
+}
+@font-face{
+	font-family: 'raleway_thin-webfont';
+
+    src: url('../fonts/raleway_thin-webfont.eot') format('eot'),
+
+         url('../fonts/raleway_thin-webfont.woff') format('woff'),
+
+         url('../fonts/raleway_thin-webfont.ttf') format('truetype'),
+
+         url('../fonts/raleway_thin-webfont.svg') format('svg');
+}
+h1{
+	font-size: 2.8rem;
+	margin-bottom: 0.5rem;
+}
+h2{
+	font-size: 1.8rem;
+	margin-top: 0;
+}
+h1, h2
+{
+	text-align: center;
+	font-family: 'raleway_thin-webfont';
+	font-weight: bold;
+}
+h3
+{
+	color: #3097c3;
+	font-size: 1.5rem;
+	text-align: center;
+}
+#blocTitre{
+	display: flex;
+	flex-direction:column;
+	height: 10%;
+	justify-content: center;
+}
+.titreCategorie{
+	font-weight: bold;
+}
+#ma-photo
+{
+	/*float: right;*/
+	margin-top: 0;
+	border: 1px #b9deee solid;
+	box-shadow: 6px 6px 6px black;
+	width: 150px;
+	align-self: flex-end;
+}
+#ma-photo img{
+	width: 150px;
+}
+#sous-titre
+{
+	font-size: 1.2em;
+	text-align: center;
+	margin-left: 14%;
+}
+#bloc-section{
+	display: flex;
+}
+section 
+{
+	margin-left: 2em;
+	height:100%;
+	width: 31%;
+}
+section ul{
+	/*list-style-type: square;*/
+	display: flex;
+	flex-direction:column;
+    justify-content: space-around;
+    align-items: space-around;
+    width: 90%;
+    font-size: 1.3rem;
+}
+section ul ul{
+	list-style-type:circle;
+}
+section ul li{
+	margin-bottom: 1em;
+}
+section li a{
+	text-decoration: none;
+}
+header
+{
+	display: flex;
+	flex-direction:row;
+	width: 80%;
+	text-align: center;
+	/*vertical-align: center
+	align-items: center;*/
+}
+/*Barre de gauche du site, servant de mini menu*/
+#barre-gauche{
+	width: 200px;
+	min-height: 100vh;
+	background-color: #26afa3;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 0 auto;
+	font-size: 3rem;
+	align-self: flex-start;
+	float: left;
+}
+#barre-gauche nav ul{
+	list-style-type: none;
+	margin-right: 30px;
+}
+#barre-gauche ul li{
+	border-radius: 20px;
+	background-color: #26e2a3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 50px;
+	padding: 1rem;
+	margin-bottom: 10%;
+	text-align: center;
+}
+#barre-gauche ul li:first-child{
+		
+}
+#barre-gauche ul li a{
+	text-decoration: none;
+	font-size: 1.5rem;
+}
