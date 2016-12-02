@@ -3,9 +3,6 @@ body
 	background-image: url('../images/arriere-plan.png');
 	/*overflow: hidden;*/
 }
-#bloc_contenu{
-	width: 80%;
-}
 @font-face{
 	font-family: 'raleway_thin-webfont';
 
@@ -16,6 +13,13 @@ body
          url('../fonts/raleway_thin-webfont.ttf') format('truetype'),
 
          url('../fonts/raleway_thin-webfont.svg') format('svg');
+}
+#blocPage{
+	width: 100%;
+	display: flex;
+}
+#blocContenu{
+	width: 94%;
 }
 h1{
 	font-size: 2.8rem;
@@ -33,7 +37,7 @@ h1, h2
 }
 h3
 {
-	color: #3097c3;
+	color: #256ee2;
 	font-size: 1.5rem;
 	text-align: center;
 }
@@ -81,6 +85,12 @@ header
 	text-align: center;
 	margin-left: 14%;
 }
+#barre-gauche{
+	width: 6%;
+	min-height: 100vh;
+	background-color: #26afa3;
+/*	float: left;*/
+}
 #bloc-section{
 	display: flex;
 	flex-wrap: wrap;
@@ -111,19 +121,8 @@ section li a{
 }
 
 /*Barre de gauche du site, servant de mini menu*/
-#barre-gauche{
-	width: 10%;
-	min-height: 100vh;
-	background-color: #26afa3;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	margin: 0 auto;
-	font-size: 3rem;
-	align-self: flex-start;
-	float: left;
-}
-#barre-gauche nav ul{
+
+/*#barre-gauche nav ul{
 	list-style-type: none;
 	margin-right: 30px;
 }
@@ -139,10 +138,7 @@ section li a{
 	margin-bottom: 10%;
 	text-align: center;
 }
-#barre-gauche ul li:first-child{
-		
-}
 #barre-gauche ul li a{
 	text-decoration: none;
 	font-size: 1.5rem;
-}
+}*/
