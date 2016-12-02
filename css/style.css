@@ -4,7 +4,7 @@ body
 	/*overflow: hidden;*/
 }
 #bloc_contenu{
-	width: 100%;
+	width: 80%;
 }
 @font-face{
 	font-family: 'raleway_thin-webfont';
@@ -37,6 +37,7 @@ h3
 	font-size: 1.5rem;
 	text-align: center;
 }
+/*En tête du site avec titre et photo*/
 header
 {
 	display: flex;
@@ -47,6 +48,7 @@ header
 /*	background-color: blue;*/
 	align-items: center;
 	margin-bottom: 1rem;
+	flex-wrap: wrap;
 }
 #blocTitre{
 	display: flex;
@@ -81,6 +83,7 @@ header
 }
 #bloc-section{
 	display: flex;
+	flex-wrap: wrap;
 }
 section 
 {
@@ -109,7 +112,7 @@ section li a{
 
 /*Barre de gauche du site, servant de mini menu*/
 #barre-gauche{
-	width: 200px;
+	width: 10%;
 	min-height: 100vh;
 	background-color: #26afa3;
 	display: flex;
