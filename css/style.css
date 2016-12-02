@@ -36,14 +36,29 @@ h3
 	font-size: 1.5rem;
 	text-align: center;
 }
+header
+{
+	display: flex;
+	flex-direction:row;
+	width: 89.2%;
+	/*text-align: center;*/
+	justify-content: flex-end;
+/*	background-color: blue;*/
+	align-items: center;
+}
 #blocTitre{
 	display: flex;
 	flex-direction:column;
 	height: 10%;
 	justify-content: center;
+	align-self: center;
+	flex:18;
 }
 .titreCategorie{
 	font-weight: bold;
+}
+#bloc-photo{
+	flex:2;
 }
 #ma-photo
 {
@@ -52,7 +67,6 @@ h3
 	border: 1px #b9deee solid;
 	box-shadow: 6px 6px 6px black;
 	width: 150px;
-	align-self: flex-end;
 }
 #ma-photo img{
 	width: 150px;
@@ -90,15 +104,7 @@ section ul li{
 section li a{
 	text-decoration: none;
 }
-header
-{
-	display: flex;
-	flex-direction:row;
-	width: 80%;
-	text-align: center;
-	/*vertical-align: center
-	align-items: center;*/
-}
+
 /*Barre de gauche du site, servant de mini menu*/
 #barre-gauche{
 	width: 200px;
