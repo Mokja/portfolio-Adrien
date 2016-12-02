@@ -45,6 +45,7 @@ header
 	justify-content: flex-end;
 /*	background-color: blue;*/
 	align-items: center;
+	margin-bottom: 1rem;
 }
 #blocTitre{
 	display: flex;
