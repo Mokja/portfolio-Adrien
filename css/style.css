@@ -46,11 +46,10 @@ header
 {
 	display: flex;
 	flex-direction:row;
-	width: 89.2%;
-	/*text-align: center;*/
+/*	width: 89.2%;*/
 	justify-content: flex-end;
 /*	background-color: blue;*/
-	align-items: center;
+	align-items: flex-end;
 	margin-bottom: 1rem;
 	flex-wrap: wrap;
 }
@@ -59,14 +58,14 @@ header
 	flex-direction:column;
 	height: 10%;
 	justify-content: center;
-	align-self: center;
-	flex:18;
+	flex:10;
 }
 .titreCategorie{
 	font-weight: bold;
 }
 #bloc-photo{
-	flex:2;
+	flex:1;
+	align-self: flex-end;
 }
 #ma-photo
 {
