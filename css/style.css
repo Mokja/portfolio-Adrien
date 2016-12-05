@@ -51,7 +51,6 @@ header
 	justify-content: flex-end;
 	align-items: flex-end;
 	margin-bottom: 1rem;
-	flex-wrap: wrap;
 }
 #blocTitre{
 	display: flex;
@@ -93,7 +92,6 @@ header
 /*Sections mis en page*/
 #bloc-section{
 	display: flex;
-	flex-wrap: wrap;
 }
 section 
 {
