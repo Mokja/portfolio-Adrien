@@ -117,3 +117,19 @@ section ul li{
 section li a{
 	text-decoration: none;
 }
+
+@media all and (max-width: 1484px)
+{
+    #blocPage
+    {
+        width: auto;
+    }
+    #barre-gauche{
+    	display: none;
+    }
+    header, #bloc-section
+	{
+		flex-direction: column;
+	}
+
+}
