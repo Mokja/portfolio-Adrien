@@ -104,7 +104,6 @@ section ul{
 	display: flex;
 	flex-direction:column;
     justify-content: space-around;
-    align-items: space-around;
     width: 90%;
     font-size: 1.3rem;
 }
